@@ -19,6 +19,7 @@ public class NUMBER_GAME
 			
 			int n2 = r.nextInt(100-1+1)+1;
 			//generate the number 
+			
 			System.out.println(n2);
 			System.out.println("Enter the guess Number range is between 1 - 100 ");
 			int n1 = sc.nextInt();
