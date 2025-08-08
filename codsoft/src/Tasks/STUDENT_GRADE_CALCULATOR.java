@@ -4,25 +4,20 @@ public class STUDENT_GRADE_CALCULATOR {
 	
 	public static void main (String arg[]) {
 	Scanner sc = new Scanner(System.in);
-	String Name;
-	int M1;
-	int M2;
-	int M3;
-	int M4;
-	int M5;
+
 	
 	System.out.print("Enter The Student Name : ");
-	Name = sc.nextLine();
+	String Name = sc.nextLine();
 	System.out.print("Enter Student Mark in Tamil : ");
-	M1 = sc.nextInt();
+	int M1 = sc.nextInt();
 	System.out.print("Enter Student Mark in English : ");
-	M2 = sc.nextInt();
+	int M2 = sc.nextInt();
 	System.out.print("Enter Student Mark in Maths : ");
-	M3 = sc.nextInt();
+	int M3 = sc.nextInt();
 	System.out.print("Enter Student Mark in Science : ");
-	M4 = sc.nextInt();
+	int M4 = sc.nextInt();
 	System.out.print("Enter Student Mark in Social Science : ");
-	M5 = sc.nextInt();
+	int M5 = sc.nextInt();
 	
 	int Total = M1+M2+M3+M4+M5;
 	int Avg = Total/5;
@@ -45,6 +40,7 @@ public class STUDENT_GRADE_CALCULATOR {
 	else {
 			System.out.println("Grade is E ");	
 	}
+	sc.close();
 	
 	}
 }
